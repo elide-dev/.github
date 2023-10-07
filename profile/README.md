@@ -1,8 +1,6 @@
 
 <center>
-<picture>
-    <img src="https://static.elide.dev/assets/org-profile/creative/elide-banner-purple.png" alt="Elide" />
-</picture>
+<img src="https://static.elide.dev/assets/org-profile/creative/elide-banner-purple.png" alt="Elide" />
 
 <br />
 <blockquote>

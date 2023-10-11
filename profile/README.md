@@ -33,11 +33,25 @@ Through the power of <a href="https://graalvm.org">GraalVM</a>, your app can do 
 
 <p>Elide is a <i>runtime</i> in the sense that you can use it to run your code. Elide supports standard APIs, and strives for compliance with the <a href="https://wintercg.org">WinterCG</a> baseline. Elide provides reasonable Node API compatibility where it makes sense to do so.</p>
 
-<b>Install it with:</b>
+<h3>Installation:</h3>
+
+<b>In one line</b> (macOS and Linux):
 ```
 curl -sSL --tlsv1.2 elide.sh | bash -s -
 ```
-<br />
+
+<b>Or, via Homebrew:</b>
+
+```
+brew tap elide-dev/elide
+brew install elide
+```
+
+<b>Or, via Docker:</b>
+
+```
+docker run --platform linux/amd64 --rm ghcr.io/elide-dev/elide
+```
 
 <b>Then you can do:</b>
 <pre>

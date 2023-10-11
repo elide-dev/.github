@@ -12,7 +12,15 @@ elide: verb. to omit (a sound or syllable) when speaking. to join together; to m
 <br />
 
 <p>
-Elide is a new runtime and framework designed for the polyglot era. <b>Mix and match languages including JavaScript, Python, Ruby, and JVM</b>, with the ability to share objects between them.
+Elide is a new runtime and framework designed for the polyglot era.
+</p>
+
+<p>
+<b>Mix and match languages including JavaScript, Python, Ruby, and JVM</b>, with the ability to share objects between them.
+</p>
+
+<p>
+<b>It's fast:</b> Elide can execute Python at up to <b>3x</b> the speed of CPython, Ruby at up to <b>22x</b> vs. CRuby, and JavaScript at up to <b>75x</b> the speed of Node. Elide already beats Node, Deno, and Bun under benchmark.
 </p>
 
 <br />

@@ -58,7 +58,7 @@ brew install elide
 <b>Or, via Docker:</b>
 
 ```
-docker run --platform linux/amd64 --rm ghcr.io/elide-dev/elide
+docker run --rm -it ghcr.io/elide-dev/elide
 ```
 
 <b>Then you can do:</b>

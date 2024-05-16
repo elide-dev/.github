@@ -48,13 +48,6 @@ Through the power of <a href="https://graalvm.org">GraalVM</a>, your app can do 
 curl -sSL --tlsv1.2 elide.sh | bash -s -
 ```
 
-<b>Or, via Homebrew:</b>
-
-```
-brew tap elide-dev/elide
-brew install elide
-```
-
 <b>Or, via Docker:</b>
 
 ```

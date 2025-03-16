@@ -15,12 +15,12 @@
 
 ---
 
-Elide is like Node or Python. Use it to run things:
+<b>Elide is like Node or Python. Use it to run things:</b>
 ```shell
 > elide ./my-code.{ts,js,py}
 ```
 
-You can use Node APIs. You can even mix languages:
+<b>You can use Node APIs. You can even mix languages:</b>
 ```typescript
 // sample.mts
 

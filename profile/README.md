@@ -69,6 +69,22 @@ We provide a container image, hosted on GitHub:
 docker run --rm -it ghcr.io/elide-dev/elide
 ```
 
+### Using Elide from Gradle
+
+We provide an experimental [Gradle plugin](https://github.com/elide-dev/gradle) which can:
+
+- Accelerate `javac` compilations by up to 20x (drop-in!) with identical inputs and outputs
+- Accelerate downloading of Maven dependencies
+
+The plugin documentation explains how it works. By native-image compiling tools like `javac`, JIT warmup is skipped, potentially yielding significant performance gains for projects under 10,000 classes.
+
+[Installation in Gradle](https://github.com/elide-dev/gradle)
+```kotlin
+plugins {
+  alias(elideRuntime.plugins.elide)
+}
+```
+
 ### Using Elide in GitHub Actions
 
 We provide a [setup action](https://github.com/marketplace/actions/setup-elide):
@@ -86,10 +102,6 @@ We provide a [setup action](https://github.com/marketplace/actions/setup-elide):
 We provide a [GitHub Codespace](https://github.com/features/codespaces) with Elide pre-installed. You can click below to try it out, right from your browser:
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/elide-dev/elide?devcontainer_path=.devcontainer%2Fdevcontainer.json)
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=elide-dev/elide&type=Date)](https://star-history.com/#elide-dev/elide)
 
 [1]: https://kotlinlang.org/
 [2]: https://graalvm.org/

@@ -9,7 +9,8 @@
   <a href="https://262.ecma-international.org/13.0/"><img src="https://img.shields.io/badge/-ECMA2024-blue.svg?logo=javascript&logoColor=white" /></a>
   <a href="https://typescriptlang.org"><img src="https://img.shields.io/badge/-TypeScript-blue.svg?logo=typescript&logoColor=white" /></a>
   <img alt="Python 3.11.x" src="https://img.shields.io/badge/Python%203.11.x-green?style=flat&logo=python&logoColor=white&color=blue">
-  <a href="https://pkl-lang.org"><img src="https://img.shields.io/badge/-Apple%20Pkl-blue.svg?logo=apple&logoColor=white" /></a>
+  <a href="https://pkl-lang.org"><img src="https://img.shields.io/badge/-Pkl-blue.svg?logo=apple&logoColor=white" /></a>
+  <a href="https://kotlinlang.org"><img src="https://img.shields.io/badge/-Kotlin-blue.svg?logo=kotlin&logoColor=white" /></a>
 </p>
 
 ---

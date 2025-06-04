@@ -16,7 +16,7 @@
 
 <b>Elide is like Node or Python. Use it to run things:</b>
 ```shell
-> elide ./my-code.{ts,js,py}
+> elide ./my-code.{ts,js,py,kts,kt}
 ```
 
 <b>You can use Node APIs. You can even mix languages:</b>
@@ -45,6 +45,40 @@ def greeting(name = "Elide"):
 > elide ./sample.mts
 Hello, Elide! The answer is 42
 ```
+
+### Kotlin as a first-class citizen
+
+Elide can run Kotlin with no prior build step, can build Java code identically to `javac`, and can build Kotlin code identically to `kotlinc`.
+
+![elide-projects](https://github.com/user-attachments/assets/489e1a69-d2b8-4242-82be-f7cfcd5ccbd1)
+
+- KotlinX is supported out of the box with no need to install dependencies
+- Build Kotlin to JVM bytecode, run tests, and install from Maven, all without verbose configuration
+
+### Pkl as a manifest format
+
+Elide uses [Apple's Pkl](https://pkl-lang.org) as a dialect for project manifests. This is like Elide's equivalent of `package.json` or `pom.xml`. Here's an example:
+
+```pkl
+amends "elide:project.pkl"
+
+name = "elide-test-ktjvm"
+description = "Example project using Elide with Kotlin/JVM."
+
+dependencies {
+  maven {
+    packages {
+      // Guava
+      "com.google.guava:guava:33.4.8-jre"
+    }
+  }
+}
+```
+
+This is the manifest used above :point_up: in the _Kotlin as a first-class citizen_ sample.
+
+> [!NOTE]
+> See the full sources for the `ktjvm` sample [here](https://github.com/elide-dev/elide/tree/main/packages/cli/src/projects/ktjvm)
 
 Read more about Elide's [feature highlights](https://elide.dev)
 

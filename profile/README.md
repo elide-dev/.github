@@ -129,7 +129,7 @@ We provide a [setup action](https://github.com/marketplace/actions/setup-elide):
   uses: elide-dev/setup-elide@v2
   with:
     # any tag from the `elide-dev/releases` repo; omit for latest
-    version: 1.0.0-beta1
+    version: 1.0.0-beta5
 ```
 
 ### Using Elide via GitHub Codespaces

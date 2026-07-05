@@ -16,7 +16,7 @@
 
 <b>Elide is like Node or Python. Use it to run things:</b>
 ```shell
-> elide ./my-code.{ts,js,py,kts,kt}
+> elide ./my-code.{ts,js,py}
 ```
 
 <b>You can use Node APIs. You can even mix languages:</b>

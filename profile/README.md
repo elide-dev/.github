@@ -14,6 +14,14 @@
 
 ---
 
+## Projects
+
+- [myna](https://github.com/elide-dev/myna) — Bindgen for Substrate VM.
+- [bemo](https://github.com/elide-dev/bemo) — Fast Netty transport.
+- [trufflecel](https://github.com/elide-dev/trufflecel) — CEL on Truffle.
+- [truffledata](https://github.com/elide-dev/truffledata) — JIT-aware dataframes.
+- [elide](https://github.com/elide-dev/elide) — A runtime and toolchain for JavaScript, TypeScript, Python, Java, Kotlin, and WebAssembly.
+
 <b>Elide is like Node or Python. Use it to run things:</b>
 ```shell
 > elide ./my-code.{ts,js,py}

@@ -5,9 +5,9 @@
 
 <p align="center">
   <a href="https://elide.dev/discord"><img src="https://img.shields.io/discord/1119121740161884252?b1&logo=discord&logoColor=white&label=Discord" /></a>
-  <a href="https://262.ecma-international.org/16.0/"><img src="https://img.shields.io/badge/-ECMA2025-blue.svg?logo=javascript&logoColor=white" /></a>
+  <a href="https://262.ecma-international.org/16.0/"><img src="https://img.shields.io/badge/-ECMA2026-blue.svg?logo=javascript&logoColor=white" /></a>
   <a href="https://typescriptlang.org"><img src="https://img.shields.io/badge/-TypeScript-blue.svg?logo=typescript&logoColor=white" /></a>
-  <img alt="Python 3.12.x" src="https://img.shields.io/badge/Python%203.12.x-green?style=flat&logo=python&logoColor=white&color=blue">
+  <img alt="Python 3.13.x" src="https://img.shields.io/badge/Python%203.13.x-green?style=flat&logo=python&logoColor=white&color=blue">
   <a href="https://pkl-lang.org"><img src="https://img.shields.io/badge/-Pkl-blue.svg?logo=apple&logoColor=white" /></a>
   <a href="https://kotlinlang.org"><img src="https://img.shields.io/badge/-Kotlin-blue.svg?logo=kotlin&logoColor=white" /></a>
 </p>
@@ -16,11 +16,11 @@
 
 ## Projects
 
+- [elide](https://github.com/elide-dev/elide) — A runtime and toolchain for JavaScript, TypeScript, Python, Java, Kotlin, and WebAssembly.
 - [myna](https://github.com/elide-dev/myna) — Bindgen for Substrate VM.
 - [bemo](https://github.com/elide-dev/bemo) — Fast Netty transport.
 - [trufflecel](https://github.com/elide-dev/trufflecel) — CEL on Truffle.
 - [truffledata](https://github.com/elide-dev/truffledata) — JIT-aware dataframes.
-- [elide](https://github.com/elide-dev/elide) — A runtime and toolchain for JavaScript, TypeScript, Python, Java, Kotlin, and WebAssembly.
 
 <b>Elide is like Node or Python. Use it to run things:</b>
 ```shell

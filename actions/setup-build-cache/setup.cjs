@@ -71,7 +71,7 @@ async function setup() {
     const values = {
       ELIDE_BUILD_CACHE_ENABLED: 'true', ELIDE_BUILD_CACHE_PASSWORD: password,
       ELIDE_GRADLE_CACHE_URL: `${endpoint}/gradle/`,
-      SCCACHE_WEBDAV_ENDPOINT: `${endpoint}/sccache/`, SCCACHE_WEBDAV_USERNAME: 'elide',
+      SCCACHE_WEBDAV_ENDPOINT: `${endpoint}/sccache`, SCCACHE_WEBDAV_USERNAME: 'elide',
       SCCACHE_WEBDAV_PASSWORD: password, SCCACHE_WEBDAV_DISABLE_CREATE_DIR: 'true',
       SCCACHE_WEBDAV_KEY_PREFIX: '', SCCACHE_WEBDAV_RW_MODE: 'READ_WRITE',
     };

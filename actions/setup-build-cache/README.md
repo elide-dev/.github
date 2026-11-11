@@ -23,7 +23,7 @@ and repository IDs, event and ref. Each repository/ref has its own cache indexes
 branches and PRs can fall back to `main`, but cannot write into its index. Fork
 jobs stay on hosted runners under their repository's existing trust policy.
 
-Gradle's local cache remains enabled, with an additional remote `HttpBuildCache`.
+Gradle keeps its existing local-cache policy, with an additional remote `HttpBuildCache`.
 The init script reads only job environment variables and preserves existing
 `GRADLE_USER_HOME` and credentials. The relay's HTTP address is loopback; the
 upstream HTTP origin must be a private IPv4 address, or use HTTPS. Private HTTP

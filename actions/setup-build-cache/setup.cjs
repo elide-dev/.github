@@ -22,7 +22,6 @@ def endpoint = System.getenv('ELIDE_GRADLE_CACHE_URL')
 if (endpoint) {
     gradle.settingsEvaluated { settings ->
         settings.buildCache {
-            local { enabled = true }
             remote(HttpBuildCache) {
                 url = endpoint
                 allowInsecureProtocol = true // Authenticated relay binds only to loopback.

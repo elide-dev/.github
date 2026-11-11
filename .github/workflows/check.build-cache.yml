@@ -1,0 +1,27 @@
+name: Check - Shared Build Cache
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  action:
+    name: Cache action (${{ matrix.os }})
+    strategy:
+      matrix:
+        os: [ubuntu-24.04, windows-2025]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 10
+    steps:
+      - name: Harden runner
+        if: runner.os == 'Linux'
+        uses: step-security/harden-runner@1d88384fd173af6ecb012dfd0264a306b711241a # v2.22.4
+        with:
+          egress-policy: audit
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Test authentication, relay and setup
+        run: node --test actions/setup-build-cache/relay.test.cjs
